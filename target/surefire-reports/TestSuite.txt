@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 94.01 s <<< FAILURE! - in TestSuite
+testCases.TC_FileDownloadTest.filedownload  Time elapsed: 5.099 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_FileDownloadTest.filedownload(TC_FileDownloadTest.java:20)
+
+testCases.TC_ItemChooseTest.itemtchoose  Time elapsed: 3.001 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/ul/li[1]/a[2]"}
+  (Session info: chrome=109.0.5414.76)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-2XLTZD3', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.76, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SUPRIM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4af82c95bbecb776dca50ef47147abd7
+*** Element info: {Using=xpath, value=//*[@id="content"]/ul/li[1]/a[2]}
+	at testCases.TC_ItemChooseTest.itemtchoose(TC_ItemChooseTest.java:17)
+
+testCases.TC_RegisterTest.register  Time elapsed: 2.939 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#reg_email"}
+  (Session info: chrome=109.0.5414.76)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-2XLTZD3', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.76, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SUPRIM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4af82c95bbecb776dca50ef47147abd7
+*** Element info: {Using=id, value=reg_email}
+	at testCases.TC_RegisterTest.register(TC_RegisterTest.java:19)
+
+testCases.TC_TrainingTest.training  Time elapsed: 10.462 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_TrainingTest.training(TC_TrainingTest.java:19)
+
+testCases.TC_YouTubeVideoTest.youtube  Time elapsed: 3.098 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="header"]/nav/div/div[2]/ul/li[7]/ul/li[1]/a"}
+  (Session info: chrome=109.0.5414.76)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-2XLTZD3', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.76, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SUPRIM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4af82c95bbecb776dca50ef47147abd7
+*** Element info: {Using=xpath, value=//*[@id="header"]/nav/div/div[2]/ul/li[7]/ul/li[1]/a}
+	at testCases.TC_YouTubeVideoTest.youtube(TC_YouTubeVideoTest.java:18)
+

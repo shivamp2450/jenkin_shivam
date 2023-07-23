@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.TC_YouTubeVideoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="youtube"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- testCases.TC_YouTubeVideoTest -->
+      <class name="testCases.TC_AddToBasketTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addtobasket"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- testCases.TC_AddToBasketTest -->
+      <class name="testCases.TC_FileDownloadTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="filedownload"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- testCases.TC_FileDownloadTest -->
+      <class name="testCases.TC_TrainingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="training"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- testCases.TC_TrainingTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

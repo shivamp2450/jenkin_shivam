@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="utilities.ExtentReport" />
+	</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCases.TC_DynamicDataTest"/>
+      <class name="testCases.TC_TrainingTest"/>
+      <class name="testCases.TC_AddToBasketTest"/>
+      <class name="testCases.TC_RegisterTest"/>
+      <class name="testCases.TC_FileDownloadTest"/>
+      <class name="testCases.TC_YouTubeVideoTest"/>
+      <class name="testCases.TC_TestCaseTest"/>
+      <class name="testCases.TC_ItemChooseTest"/>
+      <class name="testCases.TC_LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
